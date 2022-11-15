@@ -14,17 +14,17 @@ _magenta() { echo -e ${magenta}$*${none}; }
 _cyan() { echo -e ${cyan}$*${none}; }
 
 error() {
-    echo -e "\n$red 输入错误! $none\n"
+    echo -e "\n$red Error! $none\n"
 }
 
 pause() {
-	read -rsp "$(echo -e "按 $green Enter 回车键 $none 继续....或按 $red Ctrl + C $none 取消.")" -d $'\n'
+	read -rsp "$(echo -e " $green Enter  $none  $red Ctrl + C $none ")" -d $'\n'
 	echo
 }
 
-# 说明
+
 echo
-echo -e "$yellow此脚本仅兼容于Debian 10+系统. 如果你的系统不符合,请Ctrl+C退出脚本$none"
-echo -e "可以去 ${cyan}https://github.com/crazypeace/V2ray_VLESS_WebSocket_TLS_CaddyV2${none} 查看脚本整体思路和关键命令, 以便针对你自己的系统做出调整."
-echo -e "有问题加群 ${cyan}https://t.me/+D8aqonnCR3s1NTRl${none}"
+echo -e "$yellow"
+echo -e "Look ${cyan}https://github.com/alisdairdaniel/install"
+echo -e " ${cyan}https://t.me/+D8aqonnCR3s1NTRl${none}"
 echo "----------------------------------------------------------------"
