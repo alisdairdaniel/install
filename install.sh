@@ -28,3 +28,4 @@ echo -e "$yellow"
 echo -e "Look ${cyan}https://github.com/alisdairdaniel/install"
 echo -e " ${cyan}https://t.me/+D8aqonnCR3s1NTRl${none}"
 echo "----------------------------------------------------------------"
+echo done
